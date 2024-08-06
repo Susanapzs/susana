@@ -1,0 +1,137 @@
+/* Estilos generales */
+body {
+    background-color: #ffeb3b; /* Fondo amarillo claro */
+    font-family: Arial, sans-serif; /* Cambiar el tipo de letra por defecto */
+    line-height: 1.6; /* Interlineado */
+    word-spacing: 2px; /* Espaciado entre palabras */
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #ffe0b2; /* Fondo naranja claro */
+    color: #e91e63; /* Texto rosado oscuro */
+    padding: 10px;
+    text-align: center;
+    position: relative; /* Para la posición de la imagen */
+}
+
+/* Título del header */
+.title {
+    font-size: 2em; /* Tamaño de texto grande para el título principal */
+    color: #e91e63; /* Texto rosado oscuro */
+}
+
+/* Subtítulos */
+.sub-title {
+    font-size: 1.5em; /* Tamaño de texto para los subtítulos */
+    color: #e91e63; /* Texto rosado oscuro */
+    text-shadow: 2px 2px 4px #000000; /* Sombra en el texto */
+    text-decoration: underline; /* Subrayado */
+}
+
+/* Descripción */
+.description {
+    font-size: 1.2em; /* Tamaño de texto para la descripción */
+    color: #e91e63; /* Texto rosado oscuro */
+}
+
+/* Navegación principal */
+#main-nav {
+    background-color: #ff7043; /* Fondo naranja oscuro */
+    height: 50px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#main-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+#main-nav ul li {
+    float: left;
+}
+
+#main-nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+#main-nav ul li a:hover {
+    background-color: #e64a19; /* Fondo naranja más oscuro */
+}
+
+/* Imágenes */
+.header-img-right {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 150px;
+    height: auto;
+}
+
+.footer-img {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    width: 150px;
+    height: auto;
+}
+
+/* Tabla de Higiene */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1em;
+    min-width: 400px;
+    border: 1px solid #dddddd;
+}
+
+table th, table td {
+    padding: 12px 15px;
+    border: 1px solid #dddddd;
+    text-align: left;
+}
+
+table th {
+    background-color: #ffcc80; /* Fondo naranja claro */
+    color: #333333; /* Texto gris oscuro */
+}
+
+table tr:nth-of-type(even) {
+    background-color: #fff3e0; /* Fondo naranja muy claro */
+}
+
+table tr:hover {
+    background-color: #ffecb3; /* Fondo amarillo claro */
+}
+
+/* Enlaces */
+a {
+    color: #1976d2; /* Azul oscuro para enlaces */
+    text-decoration: none; /* Sin subrayado para enlaces */
+}
+
+a:hover {
+    text-decoration: underline; /* Subrayado en hover */
+}
+
+/* Información del autor y pie de página */
+#author-info p, #footer p {
+    margin: 5px 0;
+}
+
+#author-info {
+    font-family: 'Courier New', monospace; /* Tipo de letra diferente para la sección del autor */
+    background-color: #ffe0b2; /* Fondo naranja claro */
+    padding
